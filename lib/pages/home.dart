@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../widgets/drawer.dart';
+
 class home extends StatelessWidget {
 num temp = 15.36;
   @override
@@ -13,7 +15,7 @@ num temp = 15.36;
             child: Text("This is $temp Mayuresh Gorantiwar"),
           ),
         ),
-        drawer: Drawer(),
+        drawer: MyDrawer(),
     );
   }
 }
