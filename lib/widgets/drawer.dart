@@ -10,12 +10,12 @@ class MyDrawer extends StatelessWidget {
         child: ListView(
           children: [
             DrawerHeader(
-              padding: const EdgeInsets.fromLTRB(5, 5, 5, 5),
+              padding: const EdgeInsets.fromLTRB(0, 0, 0, 0),
                 child: UserAccountsDrawerHeader(
                   decoration: BoxDecoration(
                     color: Colors.white,
                   ),
-                  accountName: Text("Mayuresh Gorantiwar", style: TextStyle(color:Colors.deepPurple)),
+                  accountName: Text("Mayuresh Gorantiwar", style: TextStyle(color:Colors.deepPurple,fontSize:18)),
                   accountEmail: Text("mayureshngorantiwar@gmail.com",style: TextStyle(color:Colors.deepPurple)),
                   currentAccountPicture: CircleAvatar(
                       backgroundImage: AssetImage("images/img/2.png"),
