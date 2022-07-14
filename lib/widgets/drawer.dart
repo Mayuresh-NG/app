@@ -13,26 +13,26 @@ class MyDrawer extends StatelessWidget {
               padding: const EdgeInsets.fromLTRB(0, 0, 0, 0),
                 child: UserAccountsDrawerHeader(
                   decoration: BoxDecoration(
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
-                  accountName: Text("Mayuresh Gorantiwar", style: TextStyle(color:Colors.deepPurple,fontSize:18)),
-                  accountEmail: Text("mayureshngorantiwar@gmail.com",style: TextStyle(color:Colors.deepPurple)),
+                  accountName: Text("Mayuresh Gorantiwar", style: TextStyle(color:Colors.white,fontSize:16)),
+                  accountEmail: Text("mayureshngorantiwar@gmail.com",style: TextStyle(color:Colors.white)),
                   currentAccountPicture: CircleAvatar(
                       backgroundImage: AssetImage("images/img/2.png"),
                   ),
                 ),
             ),
             ListTile(
-                leading: Icon(CupertinoIcons.home, color: Colors.white,),
-                title: Text("HOME" ,textScaleFactor: 1.1,style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
+                leading: Icon(CupertinoIcons.home, color: Colors.black,),
+                title: Text("HOME" ,textScaleFactor: 1.2,style: TextStyle(color: Colors.black),),
               ),
             ListTile(
-              leading: Icon(CupertinoIcons.profile_circled, color: Colors.white,),
-              title: Text("ABOUT" ,textScaleFactor: 1.1,style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
+              leading: Icon(CupertinoIcons.profile_circled, color: Colors.black,),
+              title: Text("ABOUT" ,textScaleFactor: 1.2,style: TextStyle(color: Colors.black),),
             ),
             ListTile(
-              leading: Icon(CupertinoIcons.mail, color: Colors.white,),
-              title: Text("CONTACT" ,textScaleFactor: 1.1,style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
+              leading: Icon(CupertinoIcons.mail, color: Colors.black,),
+              title: Text("CONTACT" ,textScaleFactor: 1.2,style: TextStyle(color: Colors.black),),
             ),
           ],
         ),
